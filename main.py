@@ -14,7 +14,7 @@ app.json.sort_keys = False
 limiter = Limiter(
     key_func=get_remote_address,
     app=app,
-    default_limiter=[],
+    default_limitr=[],
     storage_uri="memory://",
     headers_enabled=True
 )
