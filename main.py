@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
-from Flask_limiter import Limiter
-from Flask_limiter .util import get_remote_address
+from flask_limiter import Limiter
+from flask_limiter .util import get_remote_address
 import hashlib
 import hmac
 import secrets
